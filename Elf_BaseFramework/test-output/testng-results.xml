@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Leave page is displayed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-02T15:58:33 IST" name="Default suite" finished-at="2022-03-02T15:58:54 IST" duration-ms="21132">
+    <groups>
+    </groups>
+    <test started-at="2022-03-02T15:58:33 IST" name="Default test" finished-at="2022-03-02T15:58:54 IST" duration-ms="21132">
+      <class name="settings.actitime_Setting_56Test">
+        <test-method is-config="true" signature="openTheBrowser(java.lang.String)[pri:0, instance:settings.actitime_Setting_56Test@11bd0f3b]" started-at="2022-03-02T15:58:33 IST" name="openTheBrowser" finished-at="2022-03-02T15:58:34 IST" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:settings.actitime_Setting_56Test@11bd0f3b]" started-at="2022-03-02T15:58:34 IST" name="loginToApplication" finished-at="2022-03-02T15:58:42 IST" duration-ms="8011" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="validateThatUserIsAbleToCreateNewLeave()[pri:0, instance:settings.actitime_Setting_56Test@11bd0f3b]" started-at="2022-03-02T15:58:42 IST" name="validateThatUserIsAbleToCreateNewLeave" finished-at="2022-03-02T15:58:51 IST" duration-ms="8787" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displayed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Leave page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateThatUserIsAbleToCreateNewLeave -->
+        <test-method is-config="true" signature="logoutOfApplication()[pri:0, instance:settings.actitime_Setting_56Test@11bd0f3b]" started-at="2022-03-02T15:58:51 IST" name="logoutOfApplication" finished-at="2022-03-02T15:58:54 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutOfApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:settings.actitime_Setting_56Test@11bd0f3b]" started-at="2022-03-02T15:58:54 IST" name="closeTheBrowser" finished-at="2022-03-02T15:58:54 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- settings.actitime_Setting_56Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
